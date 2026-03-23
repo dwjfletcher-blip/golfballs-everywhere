@@ -1,0 +1,12 @@
+{
+  "name": "enchanted-rosie",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node serve.mjs",
+    "screenshot": "node screenshot.mjs http://localhost:3000"
+  },
+  "dependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}
